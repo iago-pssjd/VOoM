@@ -22,6 +22,7 @@ License: CC0, see http://creativecommons.org/publicdomain/zero/1.0/
             viki ................................|voom-mode-viki|
             cwiki................................|voom-mode-cwiki|
             org..................................|voom-mode-org|
+            r....................................|voom-mode-r|
             rest ................................|voom-mode-rest|
             markdown ............................|voom-mode-markdown|
             pandoc ..............................|voom-mode-pandoc|
@@ -2290,6 +2291,26 @@ For Vim cwiki plugin: http://www.vim.org/scripts/script.php?script_id=2176
     etc.
 
 First + must be at start of line. Whitespace after the last + is optional.
+
+==============================================================================
+r   [[[3~
+                                                 *voom-mode-r*
+COMMAND:
+    :Voom org
+MODULE:
+    ../autoload/voom/voom_vimplugin2657/voom_mode_r.py
+
+Mode for outlining R headlines:
+>
+    #R! headline level 1
+    some text
+    #R!! headline level 2
+    more text
+    #R!!! headline level 3
+    #R!!!! headline level 4
+
+The line must start with #R!.
+There must be a whitespace after the last ! .
 
 ==============================================================================
 org   [[[3~
